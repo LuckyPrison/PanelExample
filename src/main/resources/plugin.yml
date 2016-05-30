@@ -1,0 +1,10 @@
+name: ${project.name}
+main: ${project.groupId}.${project.name}
+version: ${project.version}
+
+author: insou
+depend: [Lib]
+
+commands:
+  paneltest:
+    description: Open default Panel test GUI
